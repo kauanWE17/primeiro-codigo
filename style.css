@@ -5,6 +5,7 @@
 }
 body{
     height: 100vh;
+    color: white;
 }
 .container{
     background-color: gray;
@@ -15,15 +16,37 @@ body{
     align-items: center;
 }
 .container h1 {
-    color: white;
-    font-size: 120px;
+    font-size: 110px;
     font-weight: 400;
     font-family: sans-serif;
 }
 .container p {
-    color: paleturquoise;
-    font-size: 60px;
-    font-weight: 110;
+    font-size: 46px;
+    font-weight: 80;
     font-family: italic;
     text-align: end;
+}
+.midia-social {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social-icon i {
+    display: block;
+    font-size: 64px;
+    color: white;
+    transition: .5s;
+}
+.social-icon i:hover {
+    color: #0a66c2;
 }
